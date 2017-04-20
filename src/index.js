@@ -1,6 +1,7 @@
 import api from './api';
 import incoming from './incoming';
 import rtm from './rtm';
+import vchannel from './vchannel';
 import channel from './channel';
 import sessionChannel from './session_channel';
 import message from './message';
@@ -15,6 +16,7 @@ export default {
   api,
   incoming,
   rtm,
+  vchannel,
   channel,
   sessionChannel,
   message,
